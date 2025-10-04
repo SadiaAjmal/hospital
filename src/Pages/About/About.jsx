@@ -1,9 +1,15 @@
 import React from 'react'
-import Hero from '../../Components/About/Hero'
+import WhoWeAre from '../../Components/About/WhoWeAre';
+import WhyChooseUs from '../../Components/About/WhyChooseUs';
+import MissionAndVision from '../../Components/About/MissionAndVision';
+import Managment from '../../Components/About/Managment';
 function About() {
   return (
     <div>
-        <Hero />
+      <WhoWeAre />
+      <WhyChooseUs />
+      <MissionAndVision />
+      <Managment/>
     </div>
   )
 }
